@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="596b59ce-c88d-437e-8e70-13fbf21ee5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/FloralChapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/Floret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/RayFloret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/Stem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/Sunflower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="596b59ce-c88d-437e-8e70-13fbf21ee5fb" name="Changes" comment="I need to transform the tips of the ligules into points">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/FloralChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/FloralChapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/RayFloret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/regalo/regalo/RayFloret.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +142,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703285862457</updated>
     </task>
+    <task id="LOCAL-00001" summary="I need to transform the tips of the ligules into points">
+      <option name="closed" value="true" />
+      <created>1703620741724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703620741724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I need to transform the tips of the ligules into points" />
+    <option name="LAST_COMMIT_MESSAGE" value="I need to transform the tips of the ligules into points" />
   </component>
 </project>

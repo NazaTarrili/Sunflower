@@ -12,8 +12,6 @@ public class FloralChapter {
     public static void drawFloralChapter(GraphicsContext context, double centerX, double centerY) {
         double floralRadius = drawSpiral(context, centerX, centerY, true);
         drawSpiral(context, centerX, centerY, false);
-
-        // Llama a drawRayFloret para dibujar una ligula
         RayFloret.drawRayFloret(context, centerX, centerY, floralRadius);
     }
 
@@ -21,10 +19,15 @@ public class FloralChapter {
         int totalFlorets = 1000;
 
         double phi = (1 + Math.sqrt(5)) / 2;
-        double aureusAngle = clockwise ? 360 / phi : -360 / phi; // Dirección de la espiral
-        double radiusIncrement = 0.1; // centimeters
+        double aureusAngle = clockwise ? 360 / phi : -360 / phi;
+        double radiusIncrement = 0.1;
 
-        double floralRadius = 0; // Save the floral chapter radius
+        return drawFloretsInSpiral(context, centerX, centerY, aureusAngle, radiusIncrement, totalFlorets);
+    }
+
+    private static double drawFloretsInSpiral(GraphicsContext context, double centerX, double centerY,
+                                              double aureusAngle, double radiusIncrement, int totalFlorets) {
+        double floralRadius = 0;
 
         for (int i = 0; i < totalFlorets; i++) {
             double angle = Math.toRadians(i * aureusAngle);

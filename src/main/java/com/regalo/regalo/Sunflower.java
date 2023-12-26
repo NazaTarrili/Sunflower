@@ -2,9 +2,6 @@ package com.regalo.regalo;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 /**
@@ -21,23 +18,11 @@ import javafx.stage.Stage;
 public class Sunflower extends Application {
     @Override
     public void start(Stage primaryStage) {
-        StackPane root = new StackPane();
-        Canvas canvas = new Canvas(600, 900);
-        GraphicsContext context = canvas.getGraphicsContext2D();
-        root.getChildren().add(canvas);
-
-        // Backgroung color
-        root.setStyle("-fx-background-color: black;");
-
-        double canvasCenterX = canvas.getWidth() / 2;
-        double canvasCenterY = canvas.getHeight() / 2;
-
-        // Draw a Floret in center
-        Stem.drawStem(context, canvasCenterX, canvasCenterY);
-        FloralChapter.drawFloralChapter(context, canvasCenterX, canvasCenterY);
+        SunflowerCanvas sunflowerCanvas = new SunflowerCanvas();
+        sunflowerCanvas.draw();
 
         primaryStage.setTitle("Sunflower");
-        primaryStage.setScene(new Scene(root, 600, 900));
+        primaryStage.setScene(new Scene(sunflowerCanvas.getRoot(), 600, 900));
         primaryStage.show();
     }
 
